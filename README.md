@@ -2,7 +2,6 @@
 
 Telegram Voice-Chat Bot To Play Music From Various Sources In Your Group
 
-<img src="https://i.imgur.com/8S8NVy0.png" width="530" height="400">
 
 
 # Support
@@ -11,23 +10,15 @@ Telegram Voice-Chat Bot To Play Music From Various Sources In Your Group
 2. Windows
 3. Mac
 
-# Diagram
-
-<img src="etc/scheme.png" width="919" height="448">
-
 ## Requirements
 
 - Python 3.6 or higher
 - A [Telegram bot token](//t.me/botfather)
 - Bot needs to be admin in the chat, atleast give message delete permissions.
-- Install `mpv` with
-
-`pkg install mpv` - for Android,  `sudo apt-get install mpv` - for ubuntu, `sudo pacman -S mpv `  - for ArchLinux, I use arch btw
-- For Windows Download mpv from https://sourceforge.net/projects/mpv-player-windows/files/ and run Mpv-installer as administrator the add mpv file to path envionment!
 
 ## Run
 
-1. `git clone https://github.com/thehamkercat/Telegram_VC_Bot vbot && cd vbot`, to download the source code.
+1. `https://github.com/zeetdeploy/Telegram_VC_Bot vbot && cd vbot`, to download the source code.
 3. `pip3 install -r requirements.txt`, to install the requirements.
 4. `cp sample_config.py config.py`
 5.  sudo nano config.py
