@@ -51,8 +51,8 @@ is_playing = False  # for restricting users while playing!
 @app.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message: Message):
     await message.reply_text(
-        "[Github](https://github.com/thehamkercat/Telegram_vc_bot)"
-        + " | [Group](t.me/TheHamkerChat)",
+        "[Github](https://github.com/zeetdeploy/Telegram_VC_Bot/)"
+        + " | [Group](NO GROUP)",
         disable_web_page_preview=True,
     )
 
@@ -81,7 +81,7 @@ async def start(_, message: Message):
         await message.reply_text("You're Blacklisted, So Stop Spamming.")
         return
     await message.reply_text(
-        "Hi I'm Telegram Voice Chat Bot. Join @PatheticProgrammers For Support."
+        "Hi I'm Telegram Voice Chat Bot."
     )
 
 
